@@ -6,6 +6,7 @@ import EventosES6, { EventosES7, MasSobreEventos } from './components/Eventos';
 import ComunicacionComponentes from './components/ComunicacionComponentes'
 import CicloVida from './components/CicloVida';
 import ContadorHooks from './components/ContadorHooks';
+import RelojHooks from './components/RelojHooks';
 
 function App() {
   return (
@@ -26,13 +27,13 @@ function App() {
               Learn React
             </a>
         </section>
-        
 
+        <hr />
 
         <section>
-          <ContadorHooks />
+          <RelojHooks />
         </section>
-      
+
       </header>
       
     </div>
